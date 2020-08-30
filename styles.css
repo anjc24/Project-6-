@@ -134,7 +134,7 @@ label{
     font-weight: 400 !important;
 }
 
-.card {
+.marketing .card {
     box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
     overflow: hidden;
     position: relative;
