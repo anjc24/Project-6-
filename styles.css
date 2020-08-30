@@ -1,0 +1,277 @@
+html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    height:100px;
+    padding: 0rem 15rem !important;
+}
+
+.navlinks{
+    margin-left: 6rem !important;
+    margin-right: 5rem !important;
+    font-weight: 500 !important;
+}
+
+.navlinks li{
+    padding:0.5rem !important;
+}
+
+
+.navbar i{
+    font-size: 0.6rem;
+}
+
+.navbar .btn {
+    font-size: .7rem;
+    padding: .75rem 2rem;
+}
+
+.navbar .btn{
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item i{
+    padding-top: 1.1rem;
+    color: rgba(0,0,0,.5);
+}
+.navbar-collapse{
+    position: absolute;
+    right: 12rem;
+}
+
+header{
+    padding-bottom: 15rem !important;
+    padding-top: 8rem;
+    height: 120vh;
+    background-color: #6900c7!important;
+    background-image: url('./hbg.png');
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 88%);
+}
+
+
+.badge-secondary-soft {
+    background-color: #d4c2ef;
+}
+.text-secondaryc {
+    color: #6900c7!important;
+}
+.badge {
+    font-weight: 400 !important;
+}
+.badge-marketing {
+    padding: .5em 1em !important;
+}
+
+header p{
+    color: hsla(0,0%,100%,.5)!important;
+    font-size: 1.2rem !important;
+}
+
+.btn-marketing{
+    font-size: 0.7rem !important;
+    font-weight: 700 !important;
+    padding:0.7rem 0 !important;
+    letter-spacing: 0.1rem;
+}
+.card-header{
+    font-weight: 600 !important;
+    color: #0061f2;
+}
+label{
+    font-size: 1rem !important;
+}
+
+.find{
+   color: #cccdcf;
+   letter-spacing: 0.1rem;
+   padding: 1rem 15rem;
+ 
+}
+ svg {
+    width: 100%;
+    fill: #a2acba;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.marketingbg{
+    clip-path: polygon(100% 0%, 0% 12%, 0% 100%, 100% 88%);
+    height: 65rem;
+    background-color: #eff3f9;
+}
+.marketing{
+    position: absolute;
+    margin-top: -62rem;
+    padding: 10rem 15rem;
+}
+
+.marh{
+    color:#6900c7 !important;
+}
+
+.text-gray{
+    color: #687281;
+    font-size: 1.2rem !important;
+}
+
+.dg{
+    color: #323f52;
+    font-weight: 500 !important;
+
+}
+
+.lg{
+    color: #687281;
+    font-weight: 400 !important;
+}
+
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+    overflow: hidden;
+    position: relative;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.myi{
+    padding-top: 1rem !important;
+    padding: 1.6rem;
+    border-radius: 50%;
+    background-color: #d4c2ef;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+}
+
+.contact{
+    padding: 6rem 15rem 2rem 15rem;
+
+}
+
+
+.contact .btn {
+    font-size: .7rem;
+    padding: .75rem 2rem;
+}
+
+.contact .btn{
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.btn2{
+    background-color: transparent !important;
+    color: #687281 !important;
+    border: none !important;
+
+}
+.btn2:hover{
+    background-color: #dbdcdf !important;
+    
+}
+
+footer{
+    color:#a2acba !important;
+}
+
+
+footer a{
+    color:#a2acba !important;
+}
+footer h5{
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        padding: 1rem !important;
+        height: auto;
+   }
+
+   .navlinks {
+    margin-left:0rem !important;
+    margin-right: 0rem !important;
+    
+}
+
+   .nav-item i{
+    position: absolute;
+    right: 2rem;
+    }
+
+    .navbar .btn{
+    margin-top: 1rem;
+    }
+
+    .navbar-collapse {
+        padding:1rem 1rem 2rem 1rem;
+        margin: 0 -1rem;
+        background: red;
+        background-color: #f8f9fa!important;
+
+    }
+
+    .navbar-collapse {
+        position: initial;
+        right: 0;
+    }
+
+    header {
+        padding: 5rem 2rem 15rem 2rem;
+        height: fit-content;
+        clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 94%) !important;
+        padding-bottom: 8rem !important;
+    }
+ 
+   header   .card{
+        padding: 0rem;
+    }
+
+    .find{
+        color: #cccdcf;
+        letter-spacing: 0.1rem;
+        padding: 2rem 1rem;  
+     }
+
+     .marketing{
+        position: absolute;
+        margin-top: -118rem;
+        padding: 1rem;
+
+    }
+
+     .contact{
+        padding: 2rem ;
+        margin-top: 5rem;
+    }
+
+    .contact{
+        padding: 2rem ;
+        margin-top: 5rem;
+    }
+
+    .button{
+        margin-top:1rem;
+    }
+    .marketingbg{
+        clip-path: polygon(100% 0%, 0% 4%, 0% 100%, 100% 94%) !important;
+        height: 130rem;
+    }
+    footer{
+        padding:0 2rem !important;
+    }
+}
